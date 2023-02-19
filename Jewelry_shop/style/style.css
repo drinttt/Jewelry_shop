@@ -1,0 +1,285 @@
+@media screen and (min-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 120%;
+        background: #f8f8f8;
+    }
+    
+    .header {
+        width: 30%;
+        margin: 50px auto 0px;
+        color: white;
+        background: black;
+        text-align: center;
+        border: 1px solid #b0c4de;
+        border-bottom: none;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+    }
+    
+    form {
+        width: 30%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #b0c4de;
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .homeheader {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .homecontent {
+        text-align: center;
+        padding-top: 3rem;
+        width: 100%;
+        background: #ccc;
+        height: 100vh;
+    }
+    
+    .input-group {
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .input-group label {
+        display: block;
+        text-align: left;
+        margin: 3px;
+    }
+    
+    .input-group input {
+        height: 30px;
+        width: 93%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    #customer {
+        left: 10px;
+        font-size: 10px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background: black;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .error {
+        width: 92%;
+        margin: 0px auto;
+        padding: 10px;
+        border: 1px solid #a94442;
+        color: #a94442;
+        background: #f2dede;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .success {
+        color: #3c763d;
+        background: #dff9d8;
+        border: 1px solid #3c763d;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 630px) and (max-width: 799.99px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 120%;
+        background: #f8f8f8;
+    }
+    
+    .header {
+        width: 30%;
+        margin: 50px auto 0px;
+        color: white;
+        background: black;
+        text-align: center;
+        border: 1px solid #b0c4de;
+        border-bottom: none;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+    }
+    
+    form {
+        width: 30%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #b0c4de;
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .homeheader {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .homecontent {
+        text-align: center;
+        padding-top: 3rem;
+        width: 100%;
+        background: #ccc;
+        height: 100vh;
+    }
+    
+    .input-group {
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .input-group label {
+        display: block;
+        text-align: left;
+        margin: 3px;
+    }
+    
+    .input-group input {
+        height: 30px;
+        width: 93%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    #customer {
+        left: 10px;
+        font-size: 10px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background: black;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .error {
+        width: 92%;
+        margin: 0px auto;
+        padding: 10px;
+        border: 1px solid #a94442;
+        color: #a94442;
+        background: #f2dede;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .success {
+        color: #3c763d;
+        background: #dff9d8;
+        border: 1px solid #3c763d;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 350px) and (max-width: 629.99px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 120%;
+        background: #f8f8f8;
+    }
+    
+    .header {
+        width: 30%;
+        margin: 50px auto 0px;
+        color: white;
+        background: black;
+        text-align: center;
+        border: 1px solid #b0c4de;
+        border-bottom: none;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px;
+    }
+    
+    form {
+        width: 30%;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #b0c4de;
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .homeheader {
+        text-align: center;
+        font-size: 5rem;
+    }
+    
+    .homecontent {
+        text-align: center;
+        padding-top: 3rem;
+        width: 100%;
+        background: #ccc;
+        height: 100vh;
+    }
+    
+    .input-group {
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .input-group label {
+        display: block;
+        text-align: left;
+        margin: 3px;
+    }
+    
+    .input-group input {
+        height: 30px;
+        width: 93%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+    
+    #customer {
+        left: 10px;
+        font-size: 10px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background: black;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .error {
+        width: 92%;
+        margin: 0px auto;
+        padding: 10px;
+        border: 1px solid #a94442;
+        color: #a94442;
+        background: #f2dede;
+        border-radius: 5px;
+        text-align: left;
+    }
+    .success {
+        color: #3c763d;
+        background: #dff9d8;
+        border: 1px solid #3c763d;
+        margin-bottom: 20px;
+    }
+}

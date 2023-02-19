@@ -1,0 +1,393 @@
+@media (min-width: 350px) and (max-width: 629.99px){
+    body{
+        background: rgb(255, 241, 223);
+    }
+    header{
+        background-color : black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+    }
+    nav{
+        background-color:  #b8b8b8;
+        color: #ebe9e9;
+        font-size: 20px;
+        border: none;
+        width:270px;
+        border-radius: 500px;
+    }
+    nav::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f142";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .navbar{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 4%;
+        left: -2%;
+        width: 300px;
+    }
+    .navbar a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .navbar li:hover{
+        background-color: rgb(162, 162, 162);
+        width: 100%;
+    }
+      
+    nav:hover .navbar{
+        display: block;
+    }
+
+    .allpd{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: auto;
+        grid-gap: 110px;
+        justify-content: center;
+    }
+    
+    .product{
+        justify-content: center;
+        width: 220;
+      
+        text-align: center;
+    }
+    img:hover{
+        width:250px;
+    }
+    #hello{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 6%;
+    }
+    footer{
+        background: rgb(255, 240, 223);
+    }
+}
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media (min-width: 630px) and (max-width: 899.99px) {
+    body{
+        background: rgb(255, 241, 223);
+    }
+    header{
+        background-color : black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+    }
+    nav{
+        background-color:  #b8b8b8;
+        color: #ebe9e9;
+        font-size: 20px;
+        border: none;
+        width:300px;
+        border-radius: 500px;
+    }
+    nav::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f0c9";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    .navbar{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 5%;
+        left: -2%;
+        width: 300px;
+    }
+    .navbar a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .navbar li:hover{
+        background-color: rgb(162, 162, 162);
+        width: 100%;
+    }
+      
+    nav:hover .navbar{
+        display: block;
+    }
+
+    .allpd{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: auto auto;
+        grid-gap: 110px;
+        justify-content: center;
+    }
+    
+    .product{
+        justify-content: center;
+        width: 220;
+      
+        text-align: center;
+    }
+    img:hover{
+        width:250px;
+    }
+    #hello{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 6%;
+    }
+    footer{
+        background: rgb(255, 240, 223);
+    }
+}
+
+/*------------------------------------------------------------------------*/
+
+
+@media (min-width: 900px) and (max-width: 1149.99px) {
+    body{
+        background: rgb(255, 241, 223);
+    }
+    header{
+        background-color : black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+    }
+    nav > ul {
+        margin: 0;
+        
+    }
+    section{
+        display: flex;
+    }
+    .allpd{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: auto auto;
+        grid-gap: 110px;
+        justify-content: center;
+        margin-top: 10%;
+        margin-right: 30%;
+    }
+    nav{
+        background-color:  #dd7a00;
+        height: auto;
+        color: #ebe9e9;
+        font-size: 20px;
+        width:400px;
+    }
+    .navbar a{
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    a:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    img.a:hover{
+        /* background:rgb(171, 170, 168);
+        padding: 10px; */
+        font-size:22px;
+    }
+    img:hover{
+        width:210px;
+    }
+    .centerad{
+        justify-content: center;
+        width:1178px;
+    }
+    .product{
+        width:200px;
+    }
+    #hello{
+        font-size: 14px;
+        margin-left: 80px;
+        margin-top: 2%;
+    }
+    footer{
+        background: rgb(255, 240, 223);
+    }
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media (min-width: 1150px) and (max-width: 1549.99px) {
+    body{
+        background: rgb(255, 241, 223);
+    }
+    header{
+        background-color : black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+    }
+    nav > ul {
+        margin: 0;
+        
+    }
+    section{
+        display: flex;
+    }
+    .allpd{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto auto auto;
+        grid-gap: 110px;
+        justify-content: center;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+    nav{
+        background-color:  #dd7a00;
+        height: auto;
+        /* width: 300px; */
+        color: #ebe9e9;
+        font-size: 20px;
+        width:300px;
+    }
+    .navbar a{
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    a:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    img.a:hover{
+        /* background:rgb(171, 170, 168);
+        padding: 10px; */
+        font-size:22px;
+    }
+    img:hover{
+        width:210px;
+    }
+    .centerad{
+        justify-content: center;
+        width:1178px;
+    }
+    .product{
+        width:200px;
+    }
+    #hello{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 2%;
+    }
+    footer{
+        background: rgb(255, 240, 223);
+    }
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media (min-width: 1550px) {
+    body{
+        background: rgb(255, 241, 223);
+    }
+    header{
+        background-color : black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;
+    }
+    nav > ul {
+        margin: 0;
+        
+    }
+    section{
+        display: flex;
+    }
+    .allpd{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 110px;
+        justify-content: center;
+        margin-top: 10%;
+        margin-right: 15%;
+    }
+    nav{
+        background-color:  #dd7a00;
+        height: auto;
+        /* width: 300px; */
+        color: #ebe9e9;
+        font-size: 20px;
+        width:300px;
+    }
+    .navbar a{
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    a:hover{
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    img.a:hover{
+        /* background:rgb(171, 170, 168);
+        padding: 10px; */
+        font-size:22px;
+    }
+    img:hover{
+        width:210px;
+    }
+    .centerad{
+        justify-content: center;
+        width:1178px;
+    }
+    .product{
+        width:200px;
+    }
+    #hello{
+        font-size: 14px;
+        margin-left: 50px;
+        margin-top: 2%;
+    }
+    footer{
+        background: rgb(255, 240, 223);
+    }
+}
+

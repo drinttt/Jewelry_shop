@@ -1,0 +1,311 @@
+@media (min-width: 350px) and (max-width: 549.99px){
+    nav{
+        color: white;
+        padding: 4%;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+        position: fixed;
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+    nav::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f0c9";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: -200%;
+        /* left: 1%; */
+
+    }
+    .navbar a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* --------- */
+    .navbar{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        /* top: 2%; */
+        top: -200%;
+        left: -80px;
+        text-align: center;
+    }
+    .navbar a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* -------- */
+    
+    .navbar li:hover{
+        background-color: rgb(162, 162, 162);
+        /* width: 100%; */
+    }
+      
+    nav:hover .navbar{
+        display: block;
+    }
+    
+    body{
+        background-color:rgb(0, 0, 0);
+    }
+    header{
+        background-color:black;
+        display: flex;
+        position: fixed;
+        justify-content:center;
+        height: 85px;
+        align-items: center;  
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    .detailpro{
+        justify-content: center;
+        width: 200; 
+    }
+
+    .list{
+        padding: 30px;
+        background-color:white;
+        margin:120px 50px 0px;
+        border-radius:50px;
+    }
+    footer{
+        display: none;    
+    }
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 550px) and (max-width: 629.99px){
+    nav{
+        text-align:center;
+    }
+    nav a{
+        display: inline-flex;
+        text-align:center;
+        font-size:20px;
+        border-radius:10px;
+        padding: 18px;
+        background:white;
+        color:black;
+        margin: 100px 4px -10px 4px;
+        width: 60px;
+        justify-content: center;   
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    body{
+        background-color:rgb(0, 0, 0);
+    }
+    header{
+        background-color:black;
+        display: flex;
+        position: fixed;
+        justify-content:center;
+        height: 85px;
+        align-items: center;  
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    a:hover{
+        background:rgb(255, 208, 0);
+    }
+    a:link{
+        text-decoration:none;
+    }
+    .detailpro{
+        justify-content: center;
+        width: 200; 
+    }
+
+    .list{
+        padding: 30px;
+        background-color:white;
+        margin:70px 50px;
+        border-radius:50px;
+    }
+
+    footer{
+        text-align:center;
+    }
+
+    footer a{
+        display: inline-flex;
+        text-align:center;
+        font-size:20px;
+        border-radius:10px;
+        padding: 18px;
+        background:white;
+        color:black;
+        margin: 30px 4px -10px 4px;
+        width: 60px;
+        justify-content: center;   
+    }
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width: 630px) and (max-width: 899.99px) {
+    nav{
+        text-align:center;
+    }
+    nav a{
+        display: inline-flex;
+        text-align:center;
+        font-size:24px;
+        border-radius:10px;
+        padding: 20px;
+        background:white;
+        color:black;
+        margin: 50px 6px -10px 6px;
+        width: 70px;
+        justify-content: center;    
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    body{
+        background-color:rgb(0, 0, 0);
+    }
+    header{
+        background-color:black;
+        display: flex;
+        position: fixed;
+        justify-content:center;
+        height: 85px;
+        align-items: center;  
+        top: 0;
+        width: 100%;
+        left: 0;
+        
+    }
+    a:hover{
+        background:rgb(255, 208, 0);
+    }
+    a:link{
+        text-decoration:none;
+    }
+
+    .detailpro{
+        justify-content: center;
+        width: 200; 
+    }
+
+    .list{
+        padding: 50px;
+        background-color:white;
+        margin:70px 100px;
+        border-radius:50px;
+    }
+
+    footer{
+        text-align:center;
+    }
+
+    footer a{
+        display: inline-flex;
+        text-align:center;
+        font-size:24px;
+        border-radius:10px;
+        padding: 20px;
+        background:white;
+        color:black;
+        margin: 50px 6px -10px 6px;
+        width: 70px;
+        justify-content: center;  
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width: 900px) {
+    nav{
+        text-align:center;
+    }
+    nav a{
+        display: inline-flex;
+        text-align:center;
+        font-size:30px;
+        border-radius:10px;
+        padding:30px;
+        background:white;
+        color:black;
+        margin: 50px 12px -10px 12px;
+        width: 90px;
+        justify-content: center;
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    body{
+        background-color:black;
+    }
+    header{
+        background-color:black;
+        display: flex;
+        justify-content:center;
+        height: 85px;
+        align-items: center;  
+    }
+    a:hover{
+        background:rgb(255, 208, 0);
+    }
+    a:link{
+        text-decoration:none;
+    }
+    .detailpro{
+        justify-content: center;
+        width: 200; 
+    }
+
+    .list{
+        padding: 100px;
+        background-color:white;
+        margin:100px 100px;
+        border-radius:50px;
+    }
+
+    footer{
+        text-align:center;
+    }
+    
+    footer a{
+        display: inline-flex;
+        text-align:center;
+        font-size:30px;
+        border-radius:10px;
+        padding:30px;
+        background:white;
+        color:black;
+        margin: 50px 10px -12px 12px;
+        width: 90px;
+        justify-content: center;
+    }
+}

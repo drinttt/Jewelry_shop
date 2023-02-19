@@ -1,0 +1,639 @@
+@media (min-width: 350px) and (max-width: 629.99px){
+    .header{
+        background-color : rgb(0, 0, 0);
+        display: flex;
+        height: 75px;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    #logo{
+        margin-left: 10px;
+    }
+    #jewshop{
+        margin-left: 32%;
+    }
+
+    #bg{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 14%;
+        position: fixed;
+    }
+    #search{
+        /*align-items: center;
+        margin-left: 15px;*/
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 23%;
+    }
+    .input_s{
+        width: 250%;   
+        text-align: center;
+        border-radius: 50px; 
+    }
+
+    form{
+        margin: 0px;
+    }
+    #butt{
+        display: none;
+    }
+    /* .keyword{
+    } */
+    
+    nav{
+        color: white;
+        padding: 4%;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+        position: fixed;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+    nav::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f141";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 5%;
+        left: 8%;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 5%;
+        left: -80px;
+    }
+    nav a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    nav li:hover{
+        background-color: rgb(162, 162, 162);
+        width: 100%;
+    }
+      
+    nav:hover .navbar{
+        display: block;
+    }
+    
+    li{
+        list-style: none;
+    }
+    li a:hover{
+        color: black;
+    }
+    .productall{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: auto ;
+        grid-gap: 100px;
+        justify-content: center;
+        margin-top: 25%;
+    }
+    .product{
+        justify-content: center;
+        width: 220;
+        background-color: white;
+        text-align: center;
+    }
+    main{
+        background-color: rgb(240, 240, 240);
+    }
+    .buy{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20;
+        /* text-decoration: none; */
+        border-radius: 7px;
+    }
+    .cart {
+        margin-left: 15%;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+        margin-top: 2.25%;
+    }
+    .cart::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f07a";
+        color: white;
+    }
+    .cart:hover{
+        background-color: gray;
+    }
+
+    .dropbtn {
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+    }
+
+    .dropbtn::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f007";
+        color: white;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        left: -8px;
+        top: 10%;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: -18px;
+        text-align: center;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover{
+        background-color: #ddd;
+    }
+      
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn{
+        background-color: gray;
+    }
+
+    .show_profile{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+    footer .jsonn {
+        padding: 25px;
+        padding-left: 1%;
+    }
+    footer{
+        top: 386%;
+        left: 0px;
+        background-color: #414141;
+        color: #ddd;
+        font-size: 14px;
+        width: 100%;
+    }
+    footer ul > li{
+        font-size: 12px;
+    }
+    .show_cart{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 630px) and (max-width: 899.99px) {
+    .header{
+        background-color : rgb(0, 0, 0);
+        display: flex;
+        height: 75px;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    #logo{
+        margin-left: 10px;
+    }
+    #jewshop{
+        margin-left: 38%;
+    }
+
+    #bg{
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 14%;
+        position: fixed;
+    }
+    #search{
+        /*align-items: center;
+        margin-left: 15px;*/
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 16%;
+    }
+    .input_s{
+        width: 250%;   
+        text-align: center;
+        border-radius: 50px; 
+    }
+
+    form{
+        margin: 0px;
+    }
+    #butt{
+        display: none;
+    }
+    /* .keyword{
+    } */
+    
+    nav{
+        color: white;
+        padding: 4%;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+        position: fixed;
+        margin-top: 4%;
+        margin-left: 5%;
+    }
+    nav::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f0c9";
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: -5%;
+        left: 2%;
+    }
+    .navbar{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 5%;
+        left: -80px;
+    }
+    .navbar a{
+        color: rgb(164, 164, 164);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .navbar li:hover{
+        background-color: rgb(162, 162, 162);
+        width: 100%;
+    }
+      
+    nav:hover .navbar{
+        display: block;
+    }
+    
+    li{
+        list-style: none;
+    }
+    li a:hover{
+        color: black;
+    }
+    .productall{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+        justify-content: center;
+        margin-top: 25%;
+    }
+    
+    .product{
+        justify-content: center;
+        width: 220;
+        background-color: white;
+        text-align: center;
+    }
+    main{
+        background-color: rgb(240, 240, 240);
+    }
+    .buy{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20;
+        /* text-decoration: none; */
+        border-radius: 7px;
+    }
+    .cart {
+        margin-left: 23%;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+        margin-top: 1.75%;
+    }
+    .cart::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f07a";
+        color: white;
+    }
+    .cart:hover{
+        background-color: gray;
+    }
+
+    .dropbtn {
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+    }
+
+    .dropbtn::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f007";
+        color: white;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+        left: -5px;
+        top: 10%;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        right: -18px;
+        text-align: center;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover{
+        background-color: #ddd;
+    }
+      
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn{
+        background-color: gray;
+    }
+
+    .show_profile{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+    footer .jsonn {
+        padding: 25px;
+        padding-left: 1%;
+    }
+    footer{
+        top: 386%;
+        left: 0px;
+        background-color: #414141;
+        color: #ddd;
+        font-size: 14px;
+        width: 100%;
+    }
+    footer ul > li{
+        font-size: 12px;
+    }
+    .show_cart{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 900px) {
+    .header{
+        background-color : black;
+        display: flex;
+        height: 75px;
+        align-items: center;
+        
+    }
+    #logo{
+        margin-left: 10px;
+    }
+    #jewshop{
+        margin-left: 40%;
+    }
+    #search{
+        align-items: center;
+        margin-left: 15px;
+    }
+    form{
+        margin: 0px;
+    }
+    .butt{
+        background-color: black;
+        color: white;
+    }
+
+    .navlink{
+        text-decoration: none;
+        color: black;
+        padding-left: 60px;
+        padding-right: 60px;
+        color: gray;
+    }
+    .navlinkhome{
+        text-decoration: none;
+        color: black;
+        padding-left: 64px;
+        padding-right: 64px;
+        color: black;
+    }
+    /* nav{
+        margin-top: 1px;
+    } */
+    .navbar{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding-left: 0%;
+        margin: 0% auto;
+        border: 0%;
+    }
+    li{
+        list-style: none;
+    }
+    li a:hover{
+        color: black;
+    }
+    .productall{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: auto auto auto;
+        grid-gap: 120px;
+        justify-content: center;
+    }
+    .product{
+        justify-content: center;
+        width: 220;
+        background-color: white;
+        text-align: center;
+    }
+    main{
+        background-color: rgb(240, 240, 240);
+    }
+    .buy{
+        justify-content: center;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 20;
+        /* text-decoration: none; */
+        border-radius: 7px;
+    }
+    .cart {
+        margin-left: 18%;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+    }
+    .cart::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f07a";
+        color: white;
+    }
+    .cart:hover{
+        background-color: gray;
+    }
+
+    .dropbtn {
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 500px;
+    }
+
+    .dropbtn::before{
+        font-family: "Font awesome 5 Free";
+        font-weight: 900;
+        content: "\f007";
+        color: white;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        align-items: center;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover{
+        background-color: #ddd;
+    }
+      
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+      
+    .dropdown:hover .dropbtn{
+        background-color: gray;
+    }
+
+    .show_profile{
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+    
+    footer .jsonn {
+        padding: 25px;
+        padding-left: 10%;
+    }
+    footer{
+        top: 386%;
+        left: 0px;
+        background-color: #414141;
+        color: #ddd;
+        font-size: 16px;
+        width: 100%;
+    }
+    footer ul > li{
+        font-size: 13px;
+    }
+    .show_cart{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        border: solid rgb(218, 211, 217);
+    }
+}
